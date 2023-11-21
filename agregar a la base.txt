@@ -1,0 +1,18 @@
+
+primero eliminar la tabla vente y  luego crear esta nueva
+
+CREATE TABLE `venta` (
+  `id_ventas` int NOT NULL AUTO_INCREMENT,
+  `id_producto` int NOT NULL,
+  `id_factura` int NOT NULL COMMENT 'Varias ventas pueden tener un Numero de factura',
+  `fecha` date NOT NULL COMMENT 'fecha de venta',
+  `hora` time NOT NULL,
+  `precio_unitario` float NOT NULL COMMENT 'precio unitario del producto',
+  `cantidad` int NOT NULL COMMENT 'Cantidad de productos a vender',
+  `total` float NOT NULL COMMENT 'total = precio_unitario*cantidad',
+  `total_factura` float NOT NULL,
+  `anulado` char(1) NOT NULL COMMENT 'Venta anulada',
+  PRIMARY KEY (`id_ventas`),
+  KEY `id_producto_idx` (`id_producto`),
+  CONSTRAINT `id_producto` FOREIGN KEY (`id_producto`) REFERENCES `productos` (`id_productos`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb3
