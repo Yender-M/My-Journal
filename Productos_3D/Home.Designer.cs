@@ -418,12 +418,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(37)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(913, 646);
             this.Controls.Add(this.panel_contenedor);
             this.Controls.Add(this.panel_barra);
             this.Controls.Add(this.panel_lateral);
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(37)))), ((int)(((byte)(44)))));
             this.Name = "Home";
             this.Text = "My Journal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

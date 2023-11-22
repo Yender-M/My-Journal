@@ -58,11 +58,53 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Egresos_Varios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egresos_Varios.Designer.cs">
+      <DependentUpon>Egresos_Varios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ofrenda_Pastoral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ofrenda_Pastoral.Designer.cs">
+      <DependentUpon>Ofrenda_Pastoral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresos_Varios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresos_Varios.Designer.cs">
+      <DependentUpon>Ingresos_Varios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diezmo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diezmo.Designer.cs">
+      <DependentUpon>Diezmo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagos_Basicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagos_Basicos.Designer.cs">
+      <DependentUpon>Pagos_Basicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Total_Egreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Total_Egreso.Designer.cs">
+      <DependentUpon>Total_Egreso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Total_Ingreso.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Total_Ingreso.Designer.cs">
       <DependentUpon>Total_Ingreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ofrendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ofrendas.Designer.cs">
+      <DependentUpon>Ofrendas.cs</DependentUpon>
     </Compile>
     <Compile Include="Usuario.cs">
       <SubType>Form</SubType>
@@ -76,18 +118,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModificarProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ModificarProducto.Designer.cs">
-      <DependentUpon>ModificarProducto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IngresarMaterial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IngresarMaterial.Designer.cs">
-      <DependentUpon>IngresarMaterial.cs</DependentUpon>
-    </Compile>
     <Compile Include="ListCategorias.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -97,38 +127,35 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistroVentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RegistroVentas.Designer.cs">
-      <DependentUpon>RegistroVentas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VerCategorias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VerCategorias.Designer.cs">
-      <DependentUpon>VerCategorias.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VerMateriales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VerMateriales.Designer.cs">
-      <DependentUpon>VerMateriales.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VerProductos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VerProductos.Designer.cs">
-      <DependentUpon>VerProductos.cs</DependentUpon>
-    </Compile>
     <Compile Include="Saldo_total.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Saldo_total.Designer.cs">
       <DependentUpon>Saldo_total.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Egresos_Varios.resx">
+      <DependentUpon>Egresos_Varios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ofrenda_Pastoral.resx">
+      <DependentUpon>Ofrenda_Pastoral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresos_Varios.resx">
+      <DependentUpon>Ingresos_Varios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diezmo.resx">
+      <DependentUpon>Diezmo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagos_Basicos.resx">
+      <DependentUpon>Pagos_Basicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Total_Egreso.resx">
+      <DependentUpon>Total_Egreso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Total_Ingreso.resx">
       <DependentUpon>Total_Ingreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ofrendas.resx">
+      <DependentUpon>Ofrendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario.resx">
       <DependentUpon>Usuario.cs</DependentUpon>
@@ -136,14 +163,8 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModificarProducto.resx">
-      <DependentUpon>ModificarProducto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IngresarMaterial.resx">
-      <DependentUpon>IngresarMaterial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -155,18 +176,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RegistroVentas.resx">
-      <DependentUpon>RegistroVentas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VerCategorias.resx">
-      <DependentUpon>VerCategorias.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VerMateriales.resx">
-      <DependentUpon>VerMateriales.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VerProductos.resx">
-      <DependentUpon>VerProductos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Saldo_total.resx">
       <DependentUpon>Saldo_total.cs</DependentUpon>
     </EmbeddedResource>

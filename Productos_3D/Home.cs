@@ -113,7 +113,7 @@ namespace My_Journal
 
         private void icbtnEgresos_Click(object sender, EventArgs e)
         {
-            //AbrirFormularioHijo(new VerCategorias());
+            AbrirFormularioHijo(new Total_Egresos());
             Activarboton(sender);
         }
 
@@ -131,31 +131,37 @@ namespace My_Journal
 
         private void icbtn_Ofrendas_Click(object sender, EventArgs e)
         {
+            AbrirFormularioHijo(new Ofrendas());
             Activarboton(sender);
         }
 
         private void icbtn_Diezmo_Click(object sender, EventArgs e)
         {
+            AbrirFormularioHijo(new Diezmo());
             Activarboton(sender);
         }
 
         private void icbtn_Varios_Click(object sender, EventArgs e)
         {
+            AbrirFormularioHijo(new Ingresos_Varios());
             Activarboton(sender);
         }
 
         private void icbtn_Pagos_basicos_Click(object sender, EventArgs e)
         {
+            AbrirFormularioHijo(new Pagos_Basicos());
             Activarboton(sender);
         }
 
         private void icbtn_Ofrenda_Pastoral_Click(object sender, EventArgs e)
         {
+            AbrirFormularioHijo(new Ofrenda_Pastoral());
             Activarboton(sender);
         }
 
         private void icbtn_Egresos_varios_Click(object sender, EventArgs e)
         {
+            AbrirFormularioHijo(new Egresos_Varios());
             Activarboton(sender);
         }
 
